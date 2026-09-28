@@ -1,0 +1,3 @@
+python zip_bomb_guard.py suspicious.zip                 # for inspection alone
+python zip_bomb_guard.py suspicious.zip --extract ./out # check + extract
+python zip_bomb_guard.py x.zip --max-total 200MiB
